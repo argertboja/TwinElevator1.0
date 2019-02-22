@@ -7,10 +7,10 @@
 
 ### Screenshots:
 #### Block Diagram: 
-<center><img src="https://github.com/argertboja/TwinElevator1.0/blob/master/Images/1.JPG" width="200" height="400"></center><br>
+<center><img src="https://github.com/argertboja/TwinElevator1.0/blob/master/Images/1.JPG" width="300" height="300"></center><br>
 
 #### Elevators:
-<center><img src="https://github.com/argertboja/TwinElevator1.0/blob/master/Images/2.JPG" width="200" height="400"></center><br>
+<center><img src="https://github.com/argertboja/TwinElevator1.0/blob/master/Images/2.JPG" width="300" height="300"></center><br>
 
 #### BASYS3 FPGA:
-<center><img src="https://github.com/argertboja/TwinElevator1.0/blob/master/Images/3.JPG" width="200" height="400"></center><br>
+<center><img src="https://github.com/argertboja/TwinElevator1.0/blob/master/Images/3.JPG" width="300" height="300"></center><br>
