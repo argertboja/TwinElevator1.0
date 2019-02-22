@@ -1,0 +1,99 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Fri Dec 30 09:45:36 2016
+| Host         : ABEntertainment running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TwinElevatorsTopModule_control_sets_placed.rpt
+| Design       : TwinElevatorsTopModule
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    33 |
+| Unused register locations in slices containing registers |   137 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             106 |           37 |
+| No           | No                    | Yes                    |               4 |            2 |
+| No           | Yes                   | No                     |             135 |           37 |
+| Yes          | No                    | No                     |              58 |           15 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------+-----------------------------------+-------------------------------------------------+------------------+----------------+
+|                 Clock Signal                |           Enable Signal           |                 Set/Reset Signal                | Slice Load Count | Bel Load Count |
++---------------------------------------------+-----------------------------------+-------------------------------------------------+------------------+----------------+
+|  queue2/check                               |                                   | queue2/go_reg_i_1__0_n_0                        |                1 |              1 |
+|  queue1/check                               |                                   | queue1/go_reg_i_1_n_0                           |                1 |              1 |
+|  rgb/clockDiv/count_reg[7]_0                |                                   | rgb/ST_CP_i_1_n_0                               |                1 |              1 |
+|  elev1/motorController/countReached         |                                   | elev1/motorController/motor/on0                 |                1 |              2 |
+| ~clk_IBUF_BUFG                              |                                   |                                                 |                2 |              2 |
+|  queue2/FourthChoice_reg[3]_1[0]            |                                   |                                                 |                1 |              2 |
+|  rgb/clockDiv/count_reg[7]_0                |                                   |                                                 |                1 |              2 |
+|  elev2/motorController/countReached_reg_n_0 |                                   | elev2/motorController/motor/state[1]_i_2__0_n_0 |                1 |              2 |
+|  keyboard/row_reg[1]_i_1_n_0                |                                   | keyboard/row_reg[1]_i_2_n_0                     |                1 |              2 |
+|  E1vsE2/enableElev1_reg_i_1_n_0             |                                   |                                                 |                1 |              2 |
+|  queue2/keyCode_reg[3][0]                   |                                   | queue1/AS[0]                                    |                1 |              2 |
+| ~clk_IBUF_BUFG                              | queue2/FirstChoice[3]_i_1__0_n_0  |                                                 |                2 |              4 |
+| ~clk_IBUF_BUFG                              | queue2/FourthChoice7_out          | queue2/FourthChoice[3]_i_1__0_n_0               |                1 |              4 |
+| ~clk_IBUF_BUFG                              | queue2/SecondChoice[3]_i_1__0_n_0 |                                                 |                1 |              4 |
+| ~clk_IBUF_BUFG                              | queue2/ThirdChoice[3]_i_1__0_n_0  |                                                 |                2 |              4 |
+|  keyCodeInternal_reg[3]_i_2_n_0             |                                   |                                                 |                2 |              4 |
+| ~clk_IBUF_BUFG                              | queue1/SecondChoice[3]_i_1_n_0    |                                                 |                1 |              4 |
+|  clkDiv/CLK                                 | queue2/newSt_reg[3][0]            |                                                 |                1 |              4 |
+| ~clk_IBUF_BUFG                              | queue1/FourthChoice7_out          | queue1/FourthChoice[3]_i_1_n_0                  |                2 |              4 |
+| ~clk_IBUF_BUFG                              | queue1/FirstChoice[3]_i_1_n_0     |                                                 |                1 |              4 |
+|  clkDiv/CLK                                 | queue1/E[0]                       |                                                 |                1 |              4 |
+| ~clk_IBUF_BUFG                              | queue1/ThirdChoice[3]_i_1_n_0     |                                                 |                1 |              4 |
+|  clkDiv/CLK                                 |                                   |                                                 |                3 |              6 |
+|  queue2/E[0]                                |                                   |                                                 |                2 |              8 |
+|  rgb/clockDiv/count_reg[7]_0                |                                   | rgb/clear                                       |                2 |              8 |
+| ~clkDiv/CLK                                 |                                   |                                                 |                3 |              8 |
+|  clk_IBUF_BUFG                              | keyboard/stop_inv_i_1_n_0         |                                                 |                2 |              9 |
+|  clk_IBUF_BUFG                              | keyboard/stop_reg_inv_n_0         |                                                 |                3 |             17 |
+|  clk_IBUF_BUFG                              |                                   | rgb/clockDiv/count[0]_i_1_n_0                   |                7 |             27 |
+|  clk_IBUF_BUFG                              |                                   | clkDiv/nextState[28]_i_1_n_0                    |                7 |             29 |
+|  clk_IBUF_BUFG                              |                                   | elev1/motorController/countReached_i_1_n_0      |                8 |             32 |
+|  clk_IBUF_BUFG                              |                                   | elev2/motorController/countReached_i_1__0_n_0   |                8 |             32 |
+|  clk_IBUF_BUFG                              |                                   |                                                 |               22 |             72 |
++---------------------------------------------+-----------------------------------+-------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     3 |
+| 2      |                     8 |
+| 4      |                    11 |
+| 6      |                     1 |
+| 8      |                     3 |
+| 9      |                     1 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

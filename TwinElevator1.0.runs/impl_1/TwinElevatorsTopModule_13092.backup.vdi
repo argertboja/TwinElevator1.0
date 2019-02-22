@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Dec 29 05:45:53 2016
+# Process ID: 13092
+# Current directory: C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.runs/impl_1
+# Command line: vivado.exe -log TwinElevatorsTopModule.vdi -applog -messageDb vivado.pb -mode batch -source TwinElevatorsTopModule.tcl -notrace
+# Log file: C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.runs/impl_1/TwinElevatorsTopModule.vdi
+# Journal file: C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TwinElevatorsTopModule.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'callElev'. [C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.srcs/constrs_1/new/constraints.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.srcs/constrs_1/new/constraints.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'callElev'. [C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.srcs/constrs_1/new/constraints.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.srcs/constrs_1/new/constraints.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/Desktop/TwinElevator/TwinElevator1.0/TwinElevator1.0.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 438.133 ; gain = 231.563
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.159 . Memory (MB): peak = 442.910 ; gain = 4.777

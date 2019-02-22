@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Fri Dec 30 11:01:55 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="0ead28f7e11a40c9a37e9ad7c358c389" type="ProjectID"/>
+<property name="ProjectIteration" value="33" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="12" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="12" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="EditCopy" value="1" type="JavaHandler"/>
+<property name="EditPaste" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="37" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="20" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="10" type="JavaHandler"/>
+<property name="ProgramDevice" value="63" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="2" type="JavaHandler"/>
+<property name="RunBitgen" value="32" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="6" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="8" type="JavaHandler"/>
+<property name="ToolsOptions" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="BaseDialog_OK" value="6" type="GuiResourceData"/>
+<property name="Comparator.sv, 423, 193" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 119, 171" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 120, 69" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 192, 158" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 219, 192" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 220, 188" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 223, 195" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 278, 161" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 313, 167" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 317, 142" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 324, 180" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 346, 189" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 374, 85" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 387, 134" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 390, 119" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 390, 132" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 398, 111" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 422, 108" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 43, 43" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 453, 155" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 486, 126" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 80, 250" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 87, 212" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 89, 158" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 90, 161" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 95, 164" value="1" type="GuiResourceData"/>
+<property name="DriverController.sv, 97, 106" value="1" type="GuiResourceData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="24" type="GuiResourceData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="5" type="GuiResourceData"/>
+<property name="GettingStartedView_OPEN_PROJECT" value="1" type="GuiResourceData"/>
+<property name="HardwareTreePanel_HARDWARE_TREE_TABLE" value="3" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 109, 226" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 114, 234" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 115, 243" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 118, 294" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 121, 249" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 168, 265" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 170, 315" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 184, 289" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 188, 232" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 189, 194" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 189, 215" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 189, 242" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 189, 259" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 189, 269" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 190, 206, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 190, 210" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 192, 183" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 205, 296" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 223, 186" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 231, 319" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 231, 319, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 231, 324" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 231, 324, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 259, 315" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 298, 279" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 327, 150" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 335, 222" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 339, 119" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 354, 310" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 364, 75" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 373, 106" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 381, 87" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 384, 224" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 395, 109" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 406, 59" value="1" type="GuiResourceData"/>
+<property name="KeyboardController.sv, 97, 267" value="1" type="GuiResourceData"/>
+<property name="MotorController.sv, 79, 113" value="1" type="GuiResourceData"/>
+<property name="MotorController.sv, 87, 245" value="1" type="GuiResourceData"/>
+<property name="MotorStarter.sv, 144, 163" value="1" type="GuiResourceData"/>
+<property name="MotorStarter.sv, 420, 210, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_AUTO_CONNECT_TARGET" value="4" type="GuiResourceData"/>
+<property name="PACommandNames_OPEN_HARDWARE_MANAGER" value="1" type="GuiResourceData"/>
+<property name="PACommandNames_TOGGLE_VIEW_NAV" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_MESSAGES, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A2861FA, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_MESSAGES, [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A2861FA, 0, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, constraints.xdc], 16, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1], 15, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, TwinElevatorsTopModule (TwinElevatorsTopModule.sv" value="40" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 28, false" value="40" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 28, false, false, false, false, false, true" value="13" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 28, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="18" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="4" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="5" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="PlanAheadTab_SHOW_FLOW_NAVIGATOR" value="3" type="GuiResourceData"/>
+<property name="ProgramDebugTab_OPEN_TARGET" value="1" type="GuiResourceData"/>
+<property name="ProgramDebugTab_PROGRAM_DEVICE" value="5" type="GuiResourceData"/>
+<property name="ProgramFpgaDialog_PROGRAM" value="5" type="GuiResourceData"/>
+<property name="QUEUE.sv, 233, 152, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="QUEUE.sv, 436, 193" value="1" type="GuiResourceData"/>
+<property name="QUEUE.sv, 436, 193, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="QUEUE.sv, 54, 158" value="1" type="GuiResourceData"/>
+<property name="RDIResource.HInputHandler_SELECT_ALL, Select All" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_COPY, Copy" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 100, 232" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 105, 233" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 107, 243" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 116, 239" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 138, 191" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 142, 269" value="2" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 154, 277" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 159, 274" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 168, 201" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 182, 371" value="2" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 215, 282" value="2" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 220, 173" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 220, 390" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 250, 415" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 261, 244" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 273, 217" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 290, 79" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 293, 231" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 307, 151" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 324, 228" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 335, 87" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 353, 97" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 354, 283" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 446, 327" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 48, 255" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 51, 244" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 58, 213" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 62, 251" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 81, 196" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 88, 244" value="1" type="GuiResourceData"/>
+<property name="RGBClockDivider.sv, 92, 207" value="1" type="GuiResourceData"/>
+<property name="RGBDisplay.sv, 253, 79" value="1" type="GuiResourceData"/>
+<property name="RGBDisplay.sv, 297, 173" value="1" type="GuiResourceData"/>
+<property name="RGBDisplay.sv, 324, 278" value="1" type="GuiResourceData"/>
+<property name="RGBDisplay.sv, 354, 156" value="1" type="GuiResourceData"/>
+<property name="RGBDisplay.sv, 75, 184" value="1" type="GuiResourceData"/>
+<property name="RGBDisplay.sv, 83, 95" value="1" type="GuiResourceData"/>
+<property name="SegmentDisplay.sv, 203, 121" value="1" type="GuiResourceData"/>
+<property name="TaskBanner_CLOSE" value="4" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 169, 308" value="1" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 188, 311" value="1" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 220, 186" value="1" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 224, 46" value="1" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 249, 169" value="1" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 286, 247" value="1" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 322, 77" value="1" type="GuiResourceData"/>
+<property name="TwinElevatorsTopModule.sv, 417, 154" value="1" type="GuiResourceData"/>
+<property name="clockDivider.sv, 507, 161" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 307, 162" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 307, 162, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 317, 81" value="1" type="GuiResourceData"/>
+<property name="constraints.xdc, 627, 94" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="26" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="21" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

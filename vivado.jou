@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2012.1 (64-bit)
+# Build 179419 by xbuild on Thu Apr 26 11:43:29 MDT 2012
+# Start of session at: Fri Dec 30 09:40:14 2016
+# Process ID: 28808
+# Log file: C:\Users\Argert\Desktop\TwinElevator1.0\vivado.log
+# Journal file: C:\Users\Argert\Desktop\TwinElevator1.0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Argert\Desktop\TwinElevator1.0\TwinElevator1.0.xpr}
